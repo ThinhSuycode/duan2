@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  box-sizing: border-box;
+}
+.header {
+  width: 100%;
+  height: 200px;
+  box-sizing: content-box;
+  background-image: url(img/ThinhVlog.png);
+  background-size: cover;
+}
+
+.header .menu .up .left li {
+  float: left;
+  list-style: none;
+  margin: 10px;
+  color: aliceblue;
+}
+.header .menu .up .right li {
+  float: right;
+  list-style: none;
+  margin: 10px;
+  color: aliceblue;
+}
+.header .menu .down button {
+  float: left;
+  width: 100px;
+}
+.down img {
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+  margin-left: 1300px;
+  background-position: contain;
+}
+.down button {
+  content: "";
+  width: 300px;
+  height: 33px;
+  margin-top: 160px;
+  margin-left: -457px;
+  border-radius: 5px;
+  color: white;
+  position: relative;
+  background-color: orange;
+}
+.down button:hover {
+  content: "";
+
+  background-color: rgb(62, 62, 221);
+}
+.content {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .box {
+  width: 970px;
+
+  border: 2px solid pink;
+  background-color: antiquewhite;
+}
+.box ul li {
+  list-style-type: disc;
+}
+.content .box h3,
+h2 {
+  color: #504c89;
+  margin: 10px 0;
+}
+.content .box p {
+  color: #504c89;
+}
+.content .box h1 {
+  color: #504c89;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.box ol li {
+  margin-left: 20px;
+}
+::marker {
+  color: #504c89;
+}
+.box .ol li h3 {
+  margin-left: 30px;
+  color: #504c89;
+}
+.box ol li p {
+  color: #504c89;
+  margin: 10px 0;
+}
+
+.box ol h4 {
+  color: #504c89;
+  margin: 10px 0;
+}
+.box ol li img {
+  width: 800px;
+  margin: 10px 0;
+}
+.box ul,
+ol p {
+  margin: 15px 0;
+}
+.box ul li {
+  margin-left: 20px;
+}
